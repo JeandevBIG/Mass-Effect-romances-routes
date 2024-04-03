@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'mass';
+    src: 
+    url(./images/SLIDER.woff2) format('woff2'),
+    url(./images/me123.woff2) format('woff2')
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+}
+hr{
+    margin: 10px 0;
+}
+.hr1 {
+    border: 0;
+    border-top: 1px solid white
+}
+header .container h1 img {
+    width: 390px; 
+}
+body {
+    background-image: url(./images/EGS_MassEffectLegendaryEdition_BioWare_S2_1200x1600-c8286ed1e08b413e7cbdc190db5a589a.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container {
+    max-width: 1460px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container .title h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.article  p, .article h2 {
+    
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-family: 'mass', sans-serif;
+    color: white;
+    font-weight: 100;
+    
+}
+header {
+    background-color: #181c2c;
+    padding: 20px 0px ;
+    
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'mass', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+header .container h1 a {
+    font-family: 'mass', sans-serif;
+    color: white;
+    
+}
+header .container li {
+    margin: 1px;
+    font-family: 'mass', sans-serif;
+}
+header .container li a {
+    color: white;
+}
+header .container li a:hover {
+    color: rgba(255, 0, 0, 0.7);
+}
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article article {
+    width: calc(100% / 3 - 15px);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(24, 28, 44, 1);
+    border-radius: 8px;
+}
+article {
+    width: calc(100% / 5 - 20px);
+}
+.article article img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.article article h3 {
+    margin: 5px 0;
+    font-family: 'mass', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+.article  p, h2 {
+    
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-family: 'mass', sans-serif;
+    color: white;
+    font-weight: 100;
+    
+}
+.article article a{
+    display: inline-block;
+    padding: 6px;
+    border-radius: 12px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    font-family: 'mass', sans-serif;
+}
+.article article a:hover{
+    background-color: rgba(255, 0, 0, 0.7);
+    color: #181c2c;
+}
+footer {
+    background-color:#181c2c;
+    color: white;
+    padding: 16px 0;
+}
+footer .container p {
+    text-align: center;
+    font-family: 'mass', sans-serif;
+}
+form input,
+form textarea,
+form button, h4{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 15px;
+    background-color: rgba(24, 28, 44, 1);
+    border-radius: 8px;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px; 
+    color: white;
+    font-family: 'mass', sans-serif;
+}
+form button:hover{
+    color: rgba(255, 0, 0, 0.7);
+}
